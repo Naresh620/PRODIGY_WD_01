@@ -1,0 +1,65 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: lightgreen;
+}
+
+#services {
+    background-color: lightcoral;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}
+
+.scrolled {
+    background-color: #222 !important;
+}
